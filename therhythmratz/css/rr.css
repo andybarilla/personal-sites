@@ -1,0 +1,21 @@
+body{margin-left:auto;margin-right:auto;background-color:black;color:white;font-family:'Special Elite','Lucida Sans Typewriter','Courier New','Courier','monospace';padding:10px;overflow-x:hidden;}
+a{color:#f49a0c;}
+a:visited{color:#efe62f;}
+a:hover{color:#6fb746;}
+p{line-height:1.5em;}
+a.event_title{font-weight:bold;}
+.banner{width:100%;max-width:800px;align-items:center;margin:auto;}
+.banner img{max-width:100%;height:auto;}
+h2{text-align:center;background-color:white;color:black;padding-top:7px;padding-bottom:7px;-webkit-clip-path:polygon(.25% 0, 100% 7%, 99.7% 96%, 0 100%);clip-path:polygon(0 0, 100% 0, 100% 96%, 0 100%);}
+ul{list-style:none;margin-left:0;padding-left:1.2em;text-indent:-1.2em;line-height:1.5em;}
+li:before{content:"# ";}
+hr{border:0;height:1px;background:white;}
+.artdownload{float:left;}
+.artdownload img{border:2px white solid;background-color:#dddddd;margin:5px;max-width:400px}
+.band_pic{max-width:1250px;align-items:center;margin:auto;}
+.band_pic img{max-width:100%;height:auto;}
+.center{text-align:center;}
+section{padding-top:5px;}
+.endorse{text-align:center;align-items: center;}
+.endorse img, .endorse amp-img{max-width: 156px;height: auto;vertical-align: middle;}
+.endorse amp-img{margin: auto;}

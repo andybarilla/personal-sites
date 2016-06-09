@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/rr.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="The Rhythm Ratz - Rockabilly &amp; Psychobilly from Colorado Springs" />
+  <meta property="og:description" content="The Rhythm Ratz are a psychobilly and rockabilly band from Colorado Springs, CO. That&#039;s Ratz with a Z not Rhythm Rats." />
+  <meta property="og:url" content="http://therhythmratz.com" />
+  <meta property="og:site_name" content="The Rhythm Ratz" />
+  <meta property="og:image" content="{{ "/assets/rr-banner-sewer.jpg" | prepend: site.baseurl }}" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="The Rhythm Ratz are a psychobilly and rockabilly band from Colorado Springs, CO. That&#039;s Ratz with a Z not Rhythm Rats." />
+  <meta name="twitter:title" content="The Rhythm Ratz - Rockabilly &amp; Psychobilly from Colorado Springs" />
+  <meta name="twitter:site" content="@therhythmratz" />
+    
+  <link rel="icon" href="{{ "/assets/rr-badge-32.png" | prepend: site.baseurl }}" sizes="32x32" />
+  <link rel="icon" href="{{ "/assets/rr-badge-16.png" | prepend: site.baseurl }}" sizes="192x192" />
+
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>

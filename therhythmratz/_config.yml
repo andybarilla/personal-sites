@@ -6,12 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Andy Barilla
-email: me@andybarilla.com
+title: The Rhythm Ratz
+email: band@therhythmratz.com
 description: > # this means to ignore newlines until "baseurl:"
-  The website for Andy Barilla, bass player and geek
+ The Rhythm Ratz are a psychobilly and rockabilly band from Colorado Springs, CO.
+ That's Ratz with a Z not Rhythm Rats.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://andybarilla.com"
+url: "http://therhythmratz.com"
 host: 0.0.0.0
 
 # Build settings
@@ -21,7 +22,3 @@ bandsintown:
   strftime: "%b %e"
   bands:
     - "The Rhythm Ratz"
-    - "Tinker's Damn"
-
-gems:
-  - hash-joiner
