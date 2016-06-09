@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Andy Barilla
+email: me@andybarilla.com
+description: > # this means to ignore newlines until "baseurl:"
+  The website for Andy Barilla, bass player and geek
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jolly-good-dragonstone-190749.nitrousapp.com:4000/"
+host: 0.0.0.0
+
+# Build settings
+markdown: kramdown
+
+bitbands:
+  - "The Rhythm Ratz"
+  - "Tinker's Damn"
+
+gems:
+  - hash-joiner
