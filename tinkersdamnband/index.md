@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tinker's Damn
+comments: true
 ---
 
 ## Upcoming Shows
