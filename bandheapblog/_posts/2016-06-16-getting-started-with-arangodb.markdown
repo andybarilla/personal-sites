@@ -3,6 +3,7 @@ layout: post
 title:  "Getting Started with ArangoDB"
 date:   2016-06-16 23:11:21 +0000
 categories: arangodb
+comments: true
 ---
 After some research and fiddling, I decided that the run of the mill relational database might
 not be the most ideal for storing and searching the type of data we're going to have hear at
