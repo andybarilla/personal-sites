@@ -20,7 +20,6 @@ markdown: kramdown
 bandsintown:
   strftime: "%b %e"
   bands:
-    - "The Rhythm Ratz"
     - "Tinker's Damn"
 
 gems:
