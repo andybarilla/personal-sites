@@ -14,10 +14,9 @@ If you need to communicate with me or stalk me you can find me on [Twitter](http
 
 </div>
 
-|----------------------------------------------|
-| My Upcoming Gigs                             |
 |-----+---------+------------------------------|
 |Date | Artists | Venue                        |
+|-----+---------+------------------------------|
 {% for event in site.data.bitevents %}|{{ event.strftime }} | <a href="{{event.facebook_rsvp_url}}">{{event.artistlist}}</a> | <a href="{{event.facebook_rsvp_url}}">{{ event.venue.place }}</a> |
 {% endfor %}
 
