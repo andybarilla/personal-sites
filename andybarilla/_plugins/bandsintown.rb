@@ -16,18 +16,34 @@ module Bandsintown
       bitevents = nil
       uri = "http://api.bandsintown.com/artists/%s/events.json?app_id=jekyll_bit_plugin&api_version=2.0"
 
+      valid_gigs = nil
       config['bands'].each do |d|
-        # begin
-          band_name = URI.encode(d)
+        parts = d.split('|')
+        if parts.length > 1
+          valid_gigs = parts[1].split(',').map(&:to_i)
+        end
+
+        begin
+          band_name = URI.encode(parts[0])
           source = JSON.load(open(uri % [band_name]))
+          if !valid_gigs.nil?
+            new_source = []
+            source.each do |gig|
+              if valid_gigs.include? gig['id']
+                new_source << gig
+              end
+            end
+            source = new_source
+          end
+
           if bitevents
             HashJoiner.deep_merge bitevents, source
           else
             bitevents = source
           end
-        #rescue
-        #  next
-        #end
+        rescue
+          next
+        end
       end
 
       bitevents.each do |gig|
