@@ -8,8 +8,7 @@
 # Site settings
 title: Andy Barilla
 email: me@andybarilla.com
-description: > # this means to ignore newlines until "baseurl:"
-  The website for Andy Barilla, bass player and geek
+description: The website for Andy Barilla, bass player and geek -
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andybarilla.com"
 host: 0.0.0.0
