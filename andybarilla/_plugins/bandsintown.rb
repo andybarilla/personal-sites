@@ -52,7 +52,9 @@ module Bandsintown
           gig['strftime'] = DateTime.parse(gig['datetime']).strftime(config['strftime'])
         end
         gig['artists'].each do |artist|
-          artists << artist['name']
+          if !artists.include? artist['name']
+            artists << artist['name']
+          end
         end
         gig['artistlist'] = artists.join(', ')
       end
