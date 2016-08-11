@@ -4,6 +4,10 @@ title: Tinker's Damn
 comments: true
 ---
 
+## Mailing List
+
+{% include mailchimp.html %}
+
 ## Upcoming Shows
 
 {% for event in site.data.bitevents %}* [{{event.venue.name}}]({{event.facebook_rsvp_url}})<br />
