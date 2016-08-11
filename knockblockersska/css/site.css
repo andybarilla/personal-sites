@@ -1,0 +1,9 @@
+body { background: #f7b731; background-image: url('checker_banner_vert.png'); background-repeat: repeat-y; background-size: 80px; background-position: 20px; font-family: sans-serif; }
+a { color: black; font-weight: bold; }
+img.logo { max-width: 90%; width: 500px; margin-left: auto; margin-right: auto; display: block; }
+div.contact { margin-top: 1em; text-align: center; }
+div.content_block { width: 75%; min-width: 320px; border-style: dotted; border-width: 3px; background-color: #f7b731; margin-left: auto; margin-right: auto; margin-top: 1em; padding: .25em;}
+div#mc_embed_signup { clear:left; }
+div#mc_embed_signup .button {
+  background-color: black;
+}
