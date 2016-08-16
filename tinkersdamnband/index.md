@@ -19,7 +19,7 @@ comments: true
 * [Facebook](http://facebook.com/tinkersdamnband)
 * [Twitter](http://twitter.com/tinkersdamnband)
 * [YouTube](https://www.youtube.com/channel/UC-62Xkpp556fVzHziz5NLXw)
-* [Reverbnation](https://www.reverbnation.com/tinkersdamnband)
+* [Reverbnation](https://www.reverbnation.com/tinkersdamn)
 
 ## Booking
 
