@@ -20,7 +20,7 @@ bandsintown:
   strftime: "%b %e"
   bands:
     - "Tinker's Damn"
-    - "Stray Suns|12534354,12534328,12534343"
+    - "Knock Blockers"
 
 gems:
   - hash-joiner
