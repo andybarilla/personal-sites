@@ -10,7 +10,7 @@ I am **Andy Barilla**. I am a [musician](https://www.reverbnation.com/musician/a
 
 [Knock Blockers](http://www.knockblockerska.com/) is my ska band and [Tinker's Damn](http://tinkersdamnband.com/) is my cover band.
 
-If you need to communicate with me or stalk me you can find me on [Twitter](https://twitter.com/bassburner) or [Facebook](https://facebook.com/andy.bassburner). You can also [email](mailto:bassburner@gmail.com) me.
+If you need to communicate with me or stalk me you can [email](mailto:me@andybarilla.com) me.
 
 </div>
 
