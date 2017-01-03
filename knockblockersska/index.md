@@ -40,8 +40,22 @@ You found us! We're a ska band from Colorado Springs influenced by all the vario
 
 ## Upcoming Shows
 
-{% for event in site.data.bitevents %}* [{{event.venue.name}}]({{event.facebook_rsvp_url}})<br />
+{% for event in site.data.bitevents %}* [{{event.title}}]({{event.facebook_rsvp_url}})<br />
   {{ event.formatted_datetime }}
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "{{ event.title }}",
+    "startDate": "{{ event.datetime }}",
+    "url": "{{ event.facebook_rsvp_url }}",
+    "location": {
+      "@type": "Place",
+      "name": "{{ event.venue.place }}",
+      "address": "{{ event.venue.city }}, {{ event.venue.region }}"
+    }
+  }
+  </script>
 {% endfor %}
 
 ## Booking
