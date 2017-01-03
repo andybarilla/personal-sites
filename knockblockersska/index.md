@@ -15,7 +15,14 @@ comments: true
   },
   "foundingDate": "2016",
   "genre": "Ska",
-  "email": "band@knockblockersska.com"
+  "email": "band@knockblockersska.com",
+  "sameAs": [
+    "https://twitter.com/knockblockers",
+    "https://facebook.com/knockblockers",
+    "https://soundcloud.com/knock-blockers",
+    "https://reverbnation.com/knockblockers",
+    "https://bandsintown.com/TheKnockBlockers"
+  ]
 }
 </script>
 
