@@ -4,7 +4,7 @@ title: The Knock Blockers
 comments: true
 ---
 
-<script tyhpe="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "MusicGroup",
