@@ -14,7 +14,8 @@ comments: true
     "name": "Colorado Springs"
   },
   "foundingDate": "2016",
-  "genre": "Ska"
+  "genre": "Ska",
+  "email": "band@knockblockersska.com"
 }
 </script>
 
