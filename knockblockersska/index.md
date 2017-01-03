@@ -4,6 +4,20 @@ title: The Knock Blockers
 comments: true
 ---
 
+<script tyhpe="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "MusicGroup",
+  "name": "The Knock Blockers",
+  "foundingLocation": {
+    "@type": "City",
+    "name": "Colorado Springs"
+  },
+  "foundingDate": "2016",
+  "genre": "Ska"
+}
+</script>
+
 <img class="logo" src="{{ site.baseurl }}/assets/kb_logo_1.png" alt="Knock Blockers" />
 
 You found us! We're a ska band from Colorado Springs influenced by all the various waves and forms of ska. We're still writing and getting going so sign up below to stay notified of shows, news release, and other goodies.  We promise we won't harass you too much.
