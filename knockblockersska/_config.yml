@@ -18,7 +18,7 @@ host: 0.0.0.0
 bandsintown:
   strftime: "%b %e"
   bands:
-    - "The Knock Blockers"
+    - "Knock Blockers"
 
 gems:
   - hash-joiner

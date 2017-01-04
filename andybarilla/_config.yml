@@ -20,7 +20,7 @@ bandsintown:
   strftime: "%b %e"
   bands:
     - "Tinker's Damn"
-    - "The Knock Blockers"
+    - "Knock Blockers"
 
 gems:
   - hash-joiner
