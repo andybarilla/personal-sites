@@ -17,6 +17,7 @@ host: 0.0.0.0
 markdown: kramdown
 
 bandsintown:
+  apikey: e4f9ac5817e5715127514c7f11f06afd
   strftime: "%b %e"
   bands:
     - "Tinker's Damn"
